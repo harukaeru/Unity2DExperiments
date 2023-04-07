@@ -1,0 +1,113 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void ColorSquare::OnMouseDown()
+extern void ColorSquare_OnMouseDown_m54F1E6D052ED561A10A1284F8935E3B4650E43E7 (void);
+// 0x00000002 System.Void ColorSquare::.ctor()
+extern void ColorSquare__ctor_m6B009F896B6A28C22856E355755C99FFBD4819CB (void);
+// 0x00000003 System.Void Game::Awake()
+extern void Game_Awake_m3B65DFD784616A9F1AA8870399863AF3E75E420B (void);
+// 0x00000004 System.Void Game::Update()
+extern void Game_Update_mA1557241B926376A448DF2A57135D7BD10A5A51F (void);
+// 0x00000005 System.Void Game::NewRound()
+extern void Game_NewRound_m49DF2FBBCD91D1C9C0010020AC8B29E90611E2B4 (void);
+// 0x00000006 System.Void Game::FailGame()
+extern void Game_FailGame_m940DD9E5286DF997E007FB3D262110483189F7B0 (void);
+// 0x00000007 System.Void Game::CheckSquare(UnityEngine.GameObject)
+extern void Game_CheckSquare_m72E62EBC4E284BC4C71873C79F9AC2DFD1A5E329 (void);
+// 0x00000008 System.Void Game::LoadMenu()
+extern void Game_LoadMenu_m0B7DCCFC845CB5F38FB6DF3B582177CECBEF03BC (void);
+// 0x00000009 System.Void Game::.ctor()
+extern void Game__ctor_m22BD482E0EC7CE99133FCF5EEF21DBC98A0BE5C3 (void);
+// 0x0000000A System.Void Menu::Start()
+extern void Menu_Start_mC49986718939F87924A1391044721CAC6E28919D (void);
+// 0x0000000B System.Void Menu::SetPage(System.String)
+extern void Menu_SetPage_mA9401AFAA4725D9423C3941E277197D16D82CA35 (void);
+// 0x0000000C System.Void Menu::PlayGame(System.Int32)
+extern void Menu_PlayGame_mF8D107AFB606D51FF2D3ED587B1F8FB4F4868971 (void);
+// 0x0000000D System.Void Menu::ResetHighscore()
+extern void Menu_ResetHighscore_mCF6E717E771CCA8B827970197B06AC1D6C07CFEC (void);
+// 0x0000000E System.Void Menu::QuitGame()
+extern void Menu_QuitGame_mD333BF79306AA6E030ACCE9F9196EAB176FCA29D (void);
+// 0x0000000F System.Void Menu::.ctor()
+extern void Menu__ctor_mBEF2B96BC9E3D64E020EBE40FEF9CF25E6C3ED00 (void);
+// 0x00000010 System.Void UI::Start()
+extern void UI_Start_m36F3E11677AB5677BD3A76B5865E90CD3609183A (void);
+// 0x00000011 System.Void UI::Update()
+extern void UI_Update_m7F9212980C571870E0700BAB400E09111370F6ED (void);
+// 0x00000012 System.Void UI::.ctor()
+extern void UI__ctor_m177FCA8E7C6A148BFF6FED9F758B3396F25FDFBB (void);
+static Il2CppMethodPointer s_methodPointers[18] = 
+{
+	ColorSquare_OnMouseDown_m54F1E6D052ED561A10A1284F8935E3B4650E43E7,
+	ColorSquare__ctor_m6B009F896B6A28C22856E355755C99FFBD4819CB,
+	Game_Awake_m3B65DFD784616A9F1AA8870399863AF3E75E420B,
+	Game_Update_mA1557241B926376A448DF2A57135D7BD10A5A51F,
+	Game_NewRound_m49DF2FBBCD91D1C9C0010020AC8B29E90611E2B4,
+	Game_FailGame_m940DD9E5286DF997E007FB3D262110483189F7B0,
+	Game_CheckSquare_m72E62EBC4E284BC4C71873C79F9AC2DFD1A5E329,
+	Game_LoadMenu_m0B7DCCFC845CB5F38FB6DF3B582177CECBEF03BC,
+	Game__ctor_m22BD482E0EC7CE99133FCF5EEF21DBC98A0BE5C3,
+	Menu_Start_mC49986718939F87924A1391044721CAC6E28919D,
+	Menu_SetPage_mA9401AFAA4725D9423C3941E277197D16D82CA35,
+	Menu_PlayGame_mF8D107AFB606D51FF2D3ED587B1F8FB4F4868971,
+	Menu_ResetHighscore_mCF6E717E771CCA8B827970197B06AC1D6C07CFEC,
+	Menu_QuitGame_mD333BF79306AA6E030ACCE9F9196EAB176FCA29D,
+	Menu__ctor_mBEF2B96BC9E3D64E020EBE40FEF9CF25E6C3ED00,
+	UI_Start_m36F3E11677AB5677BD3A76B5865E90CD3609183A,
+	UI_Update_m7F9212980C571870E0700BAB400E09111370F6ED,
+	UI__ctor_m177FCA8E7C6A148BFF6FED9F758B3396F25FDFBB,
+};
+static const int32_t s_InvokerIndices[18] = 
+{
+	3205,
+	3205,
+	3205,
+	3205,
+	3205,
+	3205,
+	2628,
+	3205,
+	3205,
+	3205,
+	2628,
+	2612,
+	3205,
+	3205,
+	3205,
+	3205,
+	3205,
+	3205,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	18,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
